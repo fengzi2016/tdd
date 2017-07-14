@@ -20,4 +20,5 @@ else if(input 是7的倍数)
 else if(input是3的倍数&&是5的倍数&&是7的倍数)
 	output:FizzBuzzWhizz
 )
-
+else if(input不是3的倍数||不是5的倍数||不是7的倍数）
+	output:num

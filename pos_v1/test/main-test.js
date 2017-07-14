@@ -2,7 +2,7 @@
  * Created by root on 17-7-14.
  */
 'use strict';
-ddescribe('FizzBuzzWhizz',() => {
+describe('FizzBuzzWhizz',() => {
     it( 'when num is times of 3' , ()=>{
         let num=6;
         let actualResult=FizzBuzzWhizz(num);
@@ -22,7 +22,7 @@ ddescribe('FizzBuzzWhizz',() => {
         expect(actualResult).toEqual(expectedText);
     });
     it('when num is times of 7',()=>{
-        let num=21;
+        let num=14;
         let actualResult=FizzBuzzWhizz(num);
         let expectedText='Whizz';
         expect(actualResult).toEqual(expectedText);
@@ -40,7 +40,7 @@ ddescribe('FizzBuzzWhizz',() => {
         expect(actualResult).toEqual(expectedText);
     });
     it('when num is times of 5 and 7',()=>{
-        let num=21;
+        let num=35;
         let actualResult=FizzBuzzWhizz(num);
         let expectedText='BuzzWhizz';
         expect(actualResult).toEqual(expectedText);
