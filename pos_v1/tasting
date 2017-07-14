@@ -3,22 +3,4 @@ input:
 	Number
 output:
 	String
-(1.
-if
-	input存在3||3的倍数&&不是5的倍数&&不是7的倍数  output:Fizz
-else if(input是5的倍数)
-	if 
-		input不是7的倍数 output:Buzz
-	 else
-		input是7的倍数 output :BuzzFizz
-else if(input 是7的倍数)
-	if 	
-		input 不是5的倍数 output:Whizz
-	else  
-		input 是5的倍数：output:BuzzWhizz
 
-else if(input是3的倍数&&是5的倍数&&是7的倍数)
-	output:FizzBuzzWhizz
-)
-else if(input不是3的倍数||不是5的倍数||不是7的倍数）
-	output:num
