@@ -1,0 +1,6 @@
+#1:FizzBuzzWhizz
+input:
+	Number
+output:
+	String
+
